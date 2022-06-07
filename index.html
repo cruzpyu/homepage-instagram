@@ -6,18 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
     <title>Instagram</title>
 </head>
 
 <body>
-    <section class="left-side">
-        <img src="images/yu-feed.png" class="yu-feed" alt="feed do instagram">
-        <img src="images/dio-feed.png" class="dio-post" alt="post no instagram da DIO">
+    <section class="container">
 
-        <div>
+        <div class="smartphones hidden">
+            <img src="images/mockup-yu.png" class="yu-feed" alt="feed do instagram">
+            <img src="images/mockup-dio.png" class="dio-post" alt="post no instagram da DIO">
+        </div>
+
+        <div class="left-side">
+
             <div class="login-box">
 
-                <div><img src="images/instagram-logo-name.png" alt="logo do instagram"></div>
+                <div class="instagram-logo">
+                    <img src="images/instagram-logo-name.png" alt="logo do instagram">
+                </div>
 
                 <form class="form">
                     <label for="login"></label>
@@ -51,7 +58,7 @@
                     </div>
                 </div>
 
-                <div class="forgotPassword-block">
+                <div class="forgotPassword-box">
                     <a href="#" class="forgot-password">Esqueceu a senha?</a>
                 </div>
 
@@ -60,6 +67,7 @@
             <div class="registration-box">
                 <p class="registrate-p">Não tem uma conta? <a href="#" class="registrate-link">Cadastre-se</a></p>
             </div>
+
             <div class="download-area">
                 <p>Obtenha o aplicativo.</p>
                 <div class="download-images">
@@ -67,7 +75,10 @@
                     <img src="images/google.png" class="google" alt="download através do google play">
                 </div>
             </div>
+
+
         </div>
+
     </section>
 
     <footer>

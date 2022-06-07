@@ -1,0 +1,30 @@
+@media (max-width: 992px) {
+    .hidden {
+        display: none;
+    }
+    .login-box {
+        width: 100%;
+        margin: 60px 0 0;
+        padding: 0;
+        border: none;
+        background-color: #F7F7F7;
+    }
+    .instagram-logo {
+        width: 90%;
+    }
+.input {
+    height: 20px;
+    width: 270px;
+}
+.button-login {
+    width: 280px;
+}
+    .registration-box {
+        width: 100%;
+        border: none;
+        margin: 0;
+        background-color: #F7F7F7;
+
+
+}
+}
