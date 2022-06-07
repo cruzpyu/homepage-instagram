@@ -30,7 +30,6 @@ body {
 }
 
 .dio-post {
-    display: block;
     position: absolute;
     height: 600px;
     width: 40%;
