@@ -24,7 +24,7 @@ body {
 
 .yu-feed {
     position: relative;
-    width: 100%;
+    width: 64%;
     height: 600px;
     margin-left: 210px;
 }
@@ -32,7 +32,7 @@ body {
 .dio-post {
     position: absolute;
     height: 600px;
-    width: 40%;
+    width: 32%;
     margin-top: 20px;
     margin-left: 310px;
 
@@ -166,8 +166,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 290px;
-    margin-left: 60px;
-    margin-top: 20px;
+    margin: 20px auto;
     justify-content: center;
 
 }
